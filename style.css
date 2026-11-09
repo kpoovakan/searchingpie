@@ -42,6 +42,9 @@ input[type="number"] {
 input:focus {
     border-style: dashed;
 }
+input::placeholder {
+    opacity: 31%;
+}
 button {
     background-color: var(--colorForeground);
     color: var(--colorBackground);

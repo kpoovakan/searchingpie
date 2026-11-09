@@ -69,7 +69,7 @@ async function handleValue(value) {
 
     try {
         const position = await fetchIndexedValue(value);
-        output.textContent = `your sequence of numbers starts at the ${position.toString()} digit of pi!`;
+        output.textContent = `your sequence of numbers, ${value}, starts at the ${position.toString()} digit of pi!`;
     } catch (error) {
         showError(`error: ${error.message}`);
     }
@@ -99,4 +99,5 @@ form.addEventListener('submit', (event) => {
 
     window.history.replaceState({}, '', url);
     void handleValue(value);
+    document.getElementById("sequence").style.display = "none";
 });

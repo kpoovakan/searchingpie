@@ -5,12 +5,12 @@ brown/green https://coolors.co/222a22-3a5423-607d42-c3c3ac-dedecf
 */
 :root {
     --colorBackground: #c3c3ac;
-    --colorForeground: #607d42;
-    --colorAccent: #3a5423;
+    --colorForeground: #3a5423;
+    --colorAccent: #607d42;
     --colorDark: #222a22;
     --colorLight: #dedecf;
 }
 body {
-    background-color: var(--colorbackground);
+    background-color: var(--colorBackground);
     color: var(--colorForeground);
 }

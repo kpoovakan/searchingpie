@@ -25,10 +25,10 @@
 
     function validateInput(value) {
         if (!value) return null;
-        if (value.startsWith('-')) return 'Error: input must not be negative.';
-        if (!/^\d+$/.test(value)) return 'Error: input must be a number.';
+        if (value.startsWith('-')) return 'error: input must not be negative.';
+        if (!/^\d+$/.test(value)) return 'error: input must be a number.';
         if (value.length < 1 || value.length > 8) {
-            return 'Error: input length must be between 1 and 8 digits.';
+            return 'error: input length must be between 1 and 8 digits.';
         }
         return null;
     }
@@ -69,9 +69,9 @@
 
         try {
             const position = await fetchIndexedValue(value);
-            output.textContent = `Your sequence of numbers starts at the ${position.toString()} digit of pi!`;
+            output.textContent = `your sequence of numbers starts at the ${position.toString()} digit of pi!`;
         } catch (error) {
-            showError(`Error: ${error.message}`);
+            showError(`error: ${error.message}`);
         }
     }
 

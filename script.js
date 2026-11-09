@@ -69,7 +69,7 @@
 
         try {
             const position = await fetchIndexedValue(value);
-            output.textContent = `Position in Pi: ${position.toString()}`;
+            output.textContent = `Your sequence of numbers starts at the ${position.toString()} digit of pi!`;
         } catch (error) {
             showError(`Error: ${error.message}`);
         }

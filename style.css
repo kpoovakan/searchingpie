@@ -37,3 +37,22 @@ input[type="number"] {
 input:focus {
     border-style: dashed;
 }
+button {
+    background-color: var(--colorForeground);
+    color: var(--colorBackground);
+    outline: none;
+    border: 1px solid var(--colorForeground);
+    border-radius: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+button:focus {
+    background-color: var(--colorAccent);
+    border-color: var(--colorAccent);
+}
+button:hover {
+    background-color: var(--colorAccent);
+    border-color: var(--colorAccent);
+    cursor: pointer;
+}

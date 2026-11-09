@@ -12,12 +12,21 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <form id="sequence">
-        <label for="n">enter a sequence of numbers:</label>
-        <input type="number" id="n" name="n" placeholder="141592" min="0" minlength="1" maxlength="8" required="">
-        <button type="submit">go!</button>
-    </form>
-    <p id="output"></p>
+    <div id="wrapper">
+        <p id="animatedTitle">SearchingPie</p>
+        <form id="sequence">
+            <label for="n">
+                    <span>e</span><span>n</span><span>t</span><span>e</span><span>r</span>
+                    <span>a</span>
+                    <span>s</span><span>e</span><span>q</span><span>u</span><span>e</span><span>n</span><span>c</span><span>e</span>
+                    <span>o</span><span>f</span>
+                    <span>n</span><span>u</span><span>m</span><span>b</span><span>e</span><span>r</span><span>s</span>:
+                </label>
+            <input type="number" id="n" name="n" placeholder="141592" min="0" minlength="1" maxlength="8" required="">
+            <button type="submit">go!</button>
+        </form>
+        <p id="output"></p>
+    </div>
     <script src="find.js"></script>
     <script src="format.js" defer></script>
 </body>

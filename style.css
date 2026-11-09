@@ -9,12 +9,14 @@ brown/green https://coolors.co/222a22-3a5423-607d42-c3c3ac-dedecf
     --colorAccent: #607d42;
     --colorDark: #222a22;
     --colorLight: #dedecf;
-    --font: "Share Tech", sans-serif;
+    --fontName: "Share Tech", sans-serif;
+    --fontSize: 31px;
 }
 body {
     background-color: var(--colorBackground);
     color: var(--colorForeground);
-    font-family: var(--font);
+    font-family: var(--fontName);
+    font-size: var(--fontSize);
 }
 input {
     background-color: transparent;
@@ -23,8 +25,9 @@ input {
     border-radius: 3px;
     box-sizing: border-box;
     padding: 3px;
-    font-family: var(--font);
+    font-family: var(--fontName);
     color: var(--colorAccent);
+    font-size: var(--fontSize);
 }
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
@@ -47,7 +50,8 @@ button {
     border-radius: 3px;
     padding: 3px;
     box-sizing: border-box;
-    font-family: var(--font);
+    font-family: var(--fontName);
+    font-size: var(--fontSize);
 }
 button:focus {
     background-color: var(--colorAccent);

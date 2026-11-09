@@ -65,3 +65,23 @@ button:hover {
     border-color: var(--colorAccent);
     cursor: pointer;
 }
+
+#sequence {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+#output {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+#wrapper {
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

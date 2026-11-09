@@ -16,3 +16,24 @@ body {
     color: var(--colorForeground);
     font-family: var(--font);
 }
+input {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid var(--colorForeground);
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 3px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input:focus {
+    border-style: dashed;
+}

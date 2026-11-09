@@ -6,3 +6,7 @@ if (n === null || n === undefined) {
 } else {
     document.getElementById("sequence").style.display = "none";
 }
+
+function redo() {
+    window.location.href = "/";
+}

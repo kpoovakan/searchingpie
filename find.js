@@ -69,7 +69,7 @@ async function handleValue(value) {
 
     try {
         const position = await fetchIndexedValue(value);
-        output.textContent = `your sequence of numbers, ${value}, starts at the ${position.toString()} digit of pi!`;
+        output.innerHTML = `your sequence of numbers, ${value}, starts at the ${position.toString()} digit of pi!<br><br><button onclick="redo()">try another number sequence</button>`;
     } catch (error) {
         showError(`error: ${error.message}`);
     }

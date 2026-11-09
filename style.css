@@ -40,7 +40,7 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 input:focus {
-    border-style: dashed;
+    border-color: var(--colorAccent);
 }
 input::placeholder {
     opacity: 31%;

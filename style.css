@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* COLOR PALETTES
+blue/brown https://coolors.co/a8d9ff-38acff-001279-77625c-2b1400
+brown/green https://coolors.co/222a22-3a5423-607d42-c3c3ac-dedecf
+*/
+:root {
+    --colorBackground: #c3c3ac;
+    --colorForeground: #607d42;
+    --colorAccent: #3a5423;
+    --colorDark: #222a22;
+    --colorLight: #dedecf;
+}
+body {
+    background-color: var(--colorbackground);
+    color: var(--colorForeground);
+}

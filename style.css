@@ -23,6 +23,8 @@ input {
     border-radius: 3px;
     box-sizing: border-box;
     padding: 3px;
+    font-family: var(--font);
+    color: var(--colorAccent);
 }
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {

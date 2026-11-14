@@ -12,11 +12,11 @@ brown/green https://coolors.co/222a22-3a5423-607d42-c3c3ac-dedecf
     --fontSize: 31px;
 }
 body {
-    background-color: black;
+    background-color: var(--colorBackground);
     color: var(--colorForeground);
     font-family: var(--fontName);
     font-size: var(--fontSize);
-    background-image: url("background.png");
+    background-image: none;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;

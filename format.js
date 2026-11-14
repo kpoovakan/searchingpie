@@ -8,7 +8,9 @@ if (n === null || n === undefined) {
 }
 
 function redo() {
-    window.location.href = "/";
+    const url = new URL(window.location.href);
+    url.search = "";
+    window.location.href = url;
 }
 
 const t = url.searchParams.get("t");

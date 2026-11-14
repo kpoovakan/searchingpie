@@ -1,14 +1,12 @@
 @charset "UTF-8";
 /* COLOR PALETTES
-blue/brown https://coolors.co/a8d9ff-38acff-001279-77625c-2b1400
+blue/brown https://coolors.co/a8d9ff-38acff-00093d-77625c-2b1400
 brown/green https://coolors.co/222a22-3a5423-607d42-c3c3ac-dedecf
 */
 :root {
-    --colorBackground: #c3c3ac;
-    --colorForeground: #3a5423;
-    --colorAccent: #607d42;
-    --colorDark: #222a22;
-    --colorLight: #dedecf;
+    --colorBackground: #00093d;
+    --colorForeground: #a8d9ff;
+    --colorAccent: #D6EDFF;
     --fontName: "Share Tech", sans-serif;
     --fontSize: 31px;
 }

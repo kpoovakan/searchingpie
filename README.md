@@ -13,4 +13,4 @@ these digits of pi were calculated by the original creator, [aha-ha](https://git
 the frontend was built with JavaScript, CSS, and HTML; the backend was built by [aha-ha](https://github.com/aha-ha) and more info on the backend can be found [here](https://github.com/aha-ha/pisearch).
 
 ### credits and licensing
-many thanks to [aha-ha](https://github.com/aha-ha) for the original project! this project is a fork of [the original](https://github.com/aha-ha/pisearch). all CSS features, as well as a few additional features, were added by [kpoovakan](https://kpoovakan.github.io). all graphics were drawn by [kpoovakan](https://kpoovakan.github.io) using [Turbowarp](https://turbowarp.org/editor).
+many thanks to [aha-ha](https://github.com/aha-ha) for the original project! this project is a fork of [the original](https://github.com/aha-ha/pisearch). all CSS features, as well as a few additional features, were added by [kpoovakan](https://kpoovakan.github.io). all graphics were drawn by [kpoovakan](https://kpoovakan.github.io) using [Turbowarp](https://turbowarp.org/editor). the fork of this project was built by human hands, without AI usage.
